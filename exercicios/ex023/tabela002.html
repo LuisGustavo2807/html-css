@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        body{
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        }
+
+        table{
+          width: 500px;
+          border-collapse: collapse;
+          position: relative;
+        }
+        td,th{
+        border: 1px solid black;
+        padding: 10px;
+        }
+
+        caption{
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+        }
+
+        thead,tfoot{
+            background-color: #202020;
+            color: white;
+        }
+        thead > tr > th {
+        position: sticky;
+        top:-1px;
+        background-color: #202020;
+        }
+        tbody > tr:nth-child(2n) {
+        background-color: lightgray;
+        }
+        td.num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- ANATOMIA PARA TABELAS GRANDES
+        CAPTION 
+         THEAD
+         TR,TD,TH
+        TBODY
+        TR,TD,TH
+        TFOOT
+        TR, TD,TH
+    
+    -->
+         <table>
+            <caption>População das unidades federativas</caption>
+        <thead>
+         <tr>
+            <th scope="col">estado</th>
+            <th scope="col" style="width: 50px;">população</th>
+         </tr>
+        </thead>
+        <tfoot>
+            <th scope="row">total de habitantes</th>
+            <td class="num"><strong>000.000.000</strong></td>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td>são paulo</td>
+            <td class="num">45.919.049</td>
+        </tr>
+        <tr>
+            <td>minas gerais</td>
+            <td class="num">21.168.751</td>
+        </tr>
+        <tr>
+            <td>rio de janeiro</td>
+            <td class="num">17.264.943</td>
+            <tr>
+                <td>bahia</td>
+                <td class="num">14.873.064</td>
+            </tr>
+            <tr>
+                <td>paraná</td>
+                <td class="num">11.433.957</td>
+            </tr>
+            <tr>
+                <td>rio grande do sul</td>
+                <td class="num">11.377.239</td>
+            </tr>
+            <tr>
+                <td>pernambuco</td>
+                <td class="num">9.557.071</td>
+            </tr>
+            <tr>
+                <td>ceará</td>
+                <td class="num">9.132.078</td>
+            </tr>
+            <tr>
+                <td>pará</td>
+                <td class="num">8.602.865</td>
+            </tr>
+            <tr>
+                <td>santa catarina</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>maranhão</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>goias</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>amazonas</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>espírito santo</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>paraíba</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>rio grande do norte</td> 
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>mato grosso</td>
+                <td class="num">0.000.000</td>
+                
+            </tr>
+            <tr>
+                <td>alagoas</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>piauí</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>distrito federal</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>mato grosso do sul</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>sergipe</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>rondonia</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>tocantins</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>acre</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <tr>
+                <td>amapa</td>
+                <td class="num">0.000.000</td>
+            </tr>
+            <td>roraima</td>
+            <td class="num">0.000.000</td>
+        </tr>
+        </tbody>
+         </table>
+</body>
+</html>
