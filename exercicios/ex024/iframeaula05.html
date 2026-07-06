@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estático com iframe</title>
+    <style>
+        iframe#tela{
+     width:95vh;
+     height: 95vh;
+     margin:auto;
+     display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conteúdo estático do iframe</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt a quod perspiciatis, quam esse non! Et exercitationem amet magni repellendus ratione non, excepturi nam eveniet error! Quas, soluta. Vitae, quaerat.</p>
+
+    
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima </h1><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed inventore at accusamus, beatae dolores necessitatibus quisquam doloribus placeat totam possimus consequatur ipsam nemo deserunt, pariatur, ea eum nisi cupiditate quam.</p><img src='imagens/images.png'>"
+        <p>Infelizmente seu navegador não é compatível com isso.</p></iframe>
+</body>
+</html>
