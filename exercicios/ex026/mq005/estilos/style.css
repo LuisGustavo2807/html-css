@@ -2,9 +2,8 @@
 
 *{
     font-family: Arial, Helvetica, sans-serif;
-
-    margin: 0px;
-    padding: 0px;
+margin: 0px;
+padding: 0px;
 }
 
 body, html {
@@ -20,7 +19,7 @@ h1{
     text-align: center;
 }
 
-span#burger {
+#burger {
     background-color: rgb(48,48,48);
     color: white;
     display: block;
@@ -36,7 +35,7 @@ span#burger {
 }
 
 menu {
-    display:none;
+    display:block;
 }
 
 menu > ul {
@@ -72,6 +71,6 @@ article > h2 {
 
 article > p {
     text-align: justify;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-indent: 20px;
 }
